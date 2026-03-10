@@ -1,7 +1,6 @@
-version: '3.8'
 services:
   mongodb:
-    image: iemafzal/f-s_mongodb:v1
+    image: mongo:7.0
     volumes:
       - mongo-data:/data/db
     environment:
@@ -14,6 +13,7 @@ services:
 
   backend:
     image: iemafzal/f-s_backend:v1
+    build: ./backend
     container_name: full-stack_backend
     environment:
       - NODE_ENV=production
@@ -27,6 +27,7 @@ services:
 
   frontend:
     image: iemafzal/f-s_frontend:v1
+    build: ./frontend
     container_name: full-stack_frontend
     ports:
       - "80:80"
