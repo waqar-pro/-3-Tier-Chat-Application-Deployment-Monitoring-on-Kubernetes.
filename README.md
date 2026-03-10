@@ -2,6 +2,17 @@
 
 A production-style deployment of a full-stack real-time chat application on Kubernetes with Prometheus & Grafana monitoring.
 
+<img src="3.png" alt="image" width="800"/>
+
+<img src="3.1.png" alt="image" width="800"/>
+
+<img src="3.2.png" alt="image" width="800"/>
+
+<img src="3.3.png" alt="image" width="800"/>
+
+
+
+
 ---
 
 ## 📌 Project Overview
